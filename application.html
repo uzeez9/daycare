@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply - Masterminds Daycare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/assets/Mastermind Daycare 1.png" alt="Masterminds Daycare" class="logo">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#">RESOURCES</a>
+            <a href="about us.html">ABOUT US</a>
+            <a href="book a tour.html" class="cta-button">BOOK A TOUR</a>
+            <a href="#" class="cta-button">CONTACT US</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="application-hero">
+            <div class="hero-content">
+                <h1>Welcome,</h1>
+                <h2>Start your application immediately.</h2>
+                <p>We're excited to welcome your child! Let's get started with a few details</p>
+                <a href="#application-form" class="cta-button">Learn more</a>
+            </div>
+            <div class="hero-image">
+                <img src="/assets/Rectangle 12 (2).png" alt="Children playing outdoors">
+            </div>
+        </section>
+
+        <section id="application-form-section">
+            <h2>Application Form</h2>
+            <form id="application-form">
+                <div class="form-group">
+                    <label for="parent-name">Parent / Guardian Name</label>
+                    <input type="text" id="parent-name" name="parent-name" placeholder="Enter Child First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="child-name">Child Name</label>
+                    <input type="text" id="child-name" name="child-name" placeholder="Enter Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Child Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="child-dob">Child Date of Birth</label>
+                    <input type="text" id="child-dob" name="child-dob" placeholder="Enter Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">House Address</label>
+                    <input type="text" id="address" name="address" placeholder="How old is your child" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="How old is your child" required>
+                </div>
+                <div class="form-group">
+                    <h3>Choose the program that best fits your child</h3>
+                    <p>Decide learning program here</p>
+                    <label for="learning-program">Choose Learning Program</label>
+                    <select id="learning-program" name="learning-program" required>
+                        <option value="">Select Option</option>
+                        
+                    </select>
+                    <p class="help-text">You can only select one program</p>
+                </div>
+                <div class="form-group">
+                    <label for="start-date">Desired Start Date</label>
+                    <input type="date" id="start-date" name="start-date" required>
+                </div>
+                <div class="form-group">
+                    <h3>Would you like to schedule a tour (Optional)</h3>
+                    <p>Select an option below</p>
+                    <label for="tour-date">If yes, enter preferred date</label>
+                    <input type="date" id="tour-date" name="tour-date">
+                </div>
+                <div class="form-group">
+                    <label for="tour-time">Enter Time Slot</label>
+                    <input type="time" id="tour-time" name="tour-time">
+                </div>
+                <button type="submit" class="cta-button">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="/assets/Mastermind Daycare 1.png" alt="Masterminds Daycare">
+              </div>
+            <div class="footer-links">
+                <a href="#">Overview</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="newsletter">
+                <span>Stay up to date</span>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2024 Mastermind Daycare. All rights reserved.</div>
+            <div>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

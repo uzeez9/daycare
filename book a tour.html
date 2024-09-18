@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Tour - Masterminds Daycare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/assets/Mastermind Daycare 1.png" alt="Masterminds Daycare" class="logo">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#">RESOURCES</a>
+            <a href="about us.html">ABOUT US</a>
+            <a href="book a tour.html" class="cta-button">BOOK A TOUR</a>
+            <a href="#" class="cta-button">CONTACT US</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-tour-hero">
+            <div class="hero-content">
+                <h1>BOOK A TOUR</h1>
+                <p>"With a Big Heart, We Shape Little Minds"</p>
+                <a href="#tour-form" class="cta-button">Apply Today</a>
+            </div>
+            <div class="hero-image">
+                <img src="/assets/Rectangle 12 (1).png" alt="Children using a tablet">
+            </div>
+        </section>
+        <form id="tour-form">
+            <h2>Fill in your information</h2>
+            <h3>Pick a Scheduled Tour or RSVP to our Open House</h3>
+            
+        
+            <div class="form-group">
+              <label>Location</label>
+              <div class="radio-group">
+                <input type="radio" id="general-enquiry" name="location" value="general-enquiry" required>
+                <label for="Ikoyi">Ikoyi</label>
+                <input type="radio" id="support-request" name="location" value="support-request" required>
+                <label for="Victoria Island">Vitoria Island</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>How many will be attending?</label>
+              <input type="text" id="number of people" required>
+            </div>
+            
+            
+            <div class="form-columns">
+                <div class="column">
+                  <div class="form-group">
+                    <label for="parent-name">Parent / Guardian Name</label>
+                    <input type="text" id="parent-name" name="parent-name" placeholder="Enter Child First Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Child Last Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="address">House Address</label>
+                    <input type="text" id="address" name="address" placeholder="How old is your child" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="How old is your child" required>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="form-group">
+                    <label for="child-name">Child Name</label>
+                    <input type="text" id="child-name" name="child-name" placeholder="Enter Full Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="child-dob">Child Date of Birth</label>
+                    <input type="text" id="child-dob" name="child-dob" placeholder="Enter Email Address" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="child-age">Child Age</label>
+                    <input type="text" id="child-age" name="child-age" placeholder="Enter Phone Number" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="form-group">
+              <label>How did you hear about us?</label>
+              <input type="text" id="number of people" required>
+            </div>
+            <div class="form-group">
+              <label for="comments">Additional Comments:</label>
+              <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Schedule Tour</button>
+          </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="/assets/Mastermind Daycare 1.png" alt="Masterminds Daycare">
+              </div>
+            <div class="footer-links">
+                <a href="#">Overview</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="newsletter">
+                <span>Stay up to date</span>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© 2024 Mastermind Daycare. All rights reserved.</div>
+            <div>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
